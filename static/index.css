@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Effra", Helvetica, Arial, sans-serif;
+}
+.hero{
+    height: 300px;
+    background-color: #00BDF2;
+    width: 100%;
+    color: black; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heroResult{
+    height: 100px;
+}
+.hero form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#word{
+    width: 70%;
+    padding: 10px;
+    border-radius: 6px;
+    height: 30px;
+}
+.main{
+    height: 100vh;
+}
+.hidden{
+    display: none;
+}
+#search{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+#definicion {
+    font-size: 1.6em;
+    width: 80%;
+    margin: 0 auto;
+}
+#audio{
+    margin: 0 auto;
+    padding: 20px;
+}
+#oraciones{
+    padding: 20px;
+}
+#oraciones p{
+    margin: 5px;
+    font-size: 1.3em;
+    border-bottom: 1px solid gray;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #00BDF2;
+
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    
+}
