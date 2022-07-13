@@ -15,4 +15,4 @@ Para probarlo localmente:
 <li>npm run dev: arranca el proyecto en modo desarrollo</li>
 <li>npm run start: inicia el servidor</li>
 
-Ver en produccion: <a href="https://oxforddictionary.vercel.app/">Aqui</a>
+Ver en produccion: <a href="https://oxforddictionary.vercel.app/">Aqui</a>.
