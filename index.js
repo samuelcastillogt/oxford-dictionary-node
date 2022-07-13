@@ -1,10 +1,17 @@
 const express = require("express")
 const path = require("path")
 const https = require("https")
+const cors = require("cors")
 const app = express()
+app.use(cors({
+    origin: '*'
+}));
 app.use(express.static(path.join(__dirname, 'static')))
 app.listen(3000, ()=> console.log("listo"))
 app.get("/", async(req, res)=>{
+    res.sendFile("index.html")
+})
+app.get("/conversar", async(req, res)=>{
     res.sendFile("index.html")
 })
 app.get("/api/:word", async(req, res)=>{
